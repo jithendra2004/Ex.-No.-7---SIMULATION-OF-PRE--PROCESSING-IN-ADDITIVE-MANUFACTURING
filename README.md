@@ -30,7 +30,7 @@
 ### d. Path Planning:
 ### Path planning helps to improve the printed surface quality, shape accuracy and infill distribution quality. There are various ways for path planning which can be used to print the objects which may affect the following factors in objects like raster path, grid path, spiral path and zigzag path.
 
-![image](https://github.com/Sellakumar1987/Ex.-No.-7---SIMULATION-OF-PRE--PROCESSING-IN-ADDITIVE-MANUFACTURING/assets/113594316/baef8515-67d7-4c96-accc-4ee88035c9e7)
+![image](https://user-images.githubusercontent.com/113594316/238126595-baef8515-67d7-4c96-accc-4ee88035c9e7.png)
 
 ### ●	All the processes related to pre-processing will be shown on the screen.
 ### ●	Select CAD file preparation from the visible list.
@@ -39,14 +39,40 @@
 ### ●	If the user follows an incorrect sequence then a pop-up will appear on the screen showing the name of the process to be selected.
 
 ## OUTPUT:
-![123_1](https://github.com/Sellakumar1987/Ex.-No.-7---SIMULATION-OF-PRE--PROCESSING-IN-ADDITIVE-MANUFACTURING/assets/113594316/ec8dafd7-cb7c-4a5b-936c-41e86a32a9da)
-![123_2](https://github.com/Sellakumar1987/Ex.-No.-7---SIMULATION-OF-PRE--PROCESSING-IN-ADDITIVE-MANUFACTURING/assets/113594316/c071a941-e5b4-4b31-af63-5f9fe08cd0fb)
-![123_3](https://github.com/Sellakumar1987/Ex.-No.-7---SIMULATION-OF-PRE--PROCESSING-IN-ADDITIVE-MANUFACTURING/assets/113594316/ebb3a944-eeb0-45e8-9841-d58997840c54)
+CAD file preparation:
 
-## Output:
+The first step in rapid prototyping is to prepare a computer-aided design (CAD) model of the object to be fabricated using layer based manufacturing processes.Once this process complete,the model is either converted or exported as STL file.
+![123_1](https://user-images.githubusercontent.com/118541861/241976769-1170aa4f-6321-4b37-808b-8f3d72d7290a.png)
+Conversion to STL:
 
-### Name:
-### Register Number:
+STL file is also known standard tesstellation language in which model is represented as triangular patterns.It covers only the information about surface structure of the model not the internal features.on CAD software itself ,it process and convert CAD file into STL file.
+![123_2](https://user-images.githubusercontent.com/118541861/241977132-2bf79ab4-be01-4b2e-b426-929c292c74fd.png)
+Orientation:
+
+In slicer software STL file is loaded .The object orientation is need to be check.without proper orientation ,time and excess material can be consumed.A proper orientation increase strength of the model .The model should be printed along the direction of force that going to withstand.
+![123_3](https://user-images.githubusercontent.com/118541861/241977570-2db19a06-ad84-4d99-816b-a82b88220e9c.png)
+Support structure:
+
+As we see before proper orientation need lesser support material .But at some places there might be need of support material which supports overhanging parts(ie.,angle above 45).However they need to be removed after printing.
+
+
+![123 4](https://user-images.githubusercontent.com/118541861/241978112-2cc63433-02b6-4d7e-86f5-f8f7f3a34af1.png)
+Slicing:'
+
+slicing is converting digital 3D models into printing instructions for a given 3D printer to build an object. In addition to the model itself, the instructions contain user-entered 3D printing parameters, such as layer height, speed, and support structure settings.
+![123 5](https://user-images.githubusercontent.com/118541861/241978260-e819e51f-f317-41c5-b138-455d6de5f07a.png)
+Path planning:
+
+The infill pattern determines the arrangement of the internal structure within the 3D printed object. Common infill patterns include rectilinear, honeycomb, grid, and concentric. Each pattern has its own characteristics in terms of strength, material usage, print time, and surface finish. The choice of infill pattern depends on the specific requirements of the printed object
+
+
+![123 6](https://user-images.githubusercontent.com/118541861/241978415-1ec20457-dca3-41d2-a735-8ed013bb8baf.png)
+
+
+
+### Name:V.A.JITHENDRA
+
+### Register Number:2122221230043
 
 ## Result: 
 ### Thus the simulation on the Preprocessing in additive manufacturing is completed.
